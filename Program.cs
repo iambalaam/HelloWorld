@@ -8,7 +8,7 @@ namespace HelloWorld
         {
             Console.WriteLine("Hello World!");
             Something thing = new Something();
-            int number = thing.GetAnInt();
+            int number = thing.GetAnInt() + thing.GetADifferentInt();
             Console.WriteLine(number);
         }
     }

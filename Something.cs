@@ -6,9 +6,13 @@ namespace HelloWorld
 {
     public class Something
     {
-    public int GetAnInt()
+        public int GetAnInt()
         {
-            return 2;
+            return 5;
+        }
+        public int GetADifferentInt()
+        {
+            return 7;
         }
     }
 }
